@@ -406,7 +406,7 @@ h1 {
 /*code*/
 
 html body div.hero {
-	width: 100%;
+	width: 106%;
 }
 @media only screen and (max-width: 662px) {
 	html body nav.navbar.navbar-expand-lg.fixed-top div.nav-icon.ml-auto button#btn.btn {
@@ -424,13 +424,22 @@ section {
 	  height: 20%;
 	}
 }
+@media only screen and (max-width: 550px) {
+	.column2 {
+		width: 642px;
+		padding-left: 182px;
+	}
+	.column{
+		width: 642px;
+		padding-left: 182px;
+	}
+}
 html body div.container div.row {
 	width: 100%;
 }
 @media only screen and (max-width: 730px){
 	html body div.container div.row div.column , html body div.container div.row div.column div.company-icon{
-		width: 100%;
-		overflow: hidden;
+		width: 0%;	
 	}
 }
 @media only screen and (max-width: 732px){
@@ -443,6 +452,9 @@ html body div.container div.row {
 	.company-icon img {
 		width: 481px;
 		height: auto;
+	  }
+	  .column2 a{
+		padding-right: 20px;
 	  }
 }
 @media only screen and (max-width: 416px) {
@@ -464,6 +476,21 @@ html body div.container div.row {
 	
 }
 @media only screen and (max-width: 444px){
+	.company-icon img {
+	    width: 580px;
+    padding-right: 134px;
+    padding-left: 0px;
+}
+@media only screen and (max-width: 460px){
+	.company-icon img {
+		width: 445px;
+		/* height: auto; */
+		padding-left: 0px;
+	}
+	
+}
+	  }
+@media only screen and (max-width: 430px){
 	.gallery{
 		margin: 106px 0px;
 	}
